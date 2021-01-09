@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+body,
+html,
+#root {
+  /* Full (Size) */
+  width: 100%;
+  height: 100%;
+
+  /* Items dispositions -> Everything to the center of the DOM */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Reset CSS */
+li {
+  list-style: none;
+}
+
+input,
+button {
+  padding: 6px 12px;
+  /* Remove default border */
+  border-style: none; 
+}
+button {
+  background-color: transparent;
+  cursor: pointer
+}
+
+/* Accessibility */
+li:focus,
+input:focus,
+button:focus {
+  outline: 1px dashed #1f1f1f
+}
+
+/* Styled components */
+ul {
+  margin: 1rem
+}
+
+ul > li {
+  margin: 1rem;
+  padding: 6px 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+
+  background-color: #1f1f1f;
+  color: #fff
+}
+
+input {
+  border-radius: 5px;
+
+  background-color: #1f1f1f;
+  color: #fff
+}
+button[type=submit] {
+  margin-left: 1rem;
+
+  border-radius: 5px;
+
+  background-color: blueviolet;
+  color: #fff
+}
