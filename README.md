@@ -1,5 +1,10 @@
 # 🧪 React Testing IRL
 
+<img
+    src="./public/Article Cover.png"
+    alt="React Testing IRL"
+/>
+
 ## 🧪 Setting up our React App
 
 ```bash
